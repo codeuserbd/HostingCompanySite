@@ -1,0 +1,25 @@
+body{color:rgba(255,255,255,1);font-size:16px}
+.carousel{min-height:500px;margin-bottom:60px}
+section{margin:20px 0 30px 0}
+.well{overflow:auto}
+.jumbotron{background-color:#df5a16}
+.feature-list{list-style:none}
+.carousel-caption{z-index:10;text-align:left;top:70px;right:10%;left:10%;font-size:22px}
+.carousel .item{height:800px;background-color:#777}
+.carousel-inner > .item > img{position:absolute;top:0;left:0;height:800px;min-width:100%}
+.server-img{width:100%}
+.marketing{text-align:center}
+.marketing h2{font-weight:normal}
+.price strong{font-size:29px}
+.extra{margin-bottom:5px}
+/*.btn{white-space:pre}
+*//* ========================================================================== Media Queries ========================================================================== */@media(max-width:767px){.btn-lg,.btn-group-lg > .btn{padding:12px 0;font-size:15px}
+.col-xs-6{width:48%}
+.btn{white-space:pre-wrap}
+.panel-heading{padding:0}
+}
+@media(min-width:768px){.btn{white-space:pre-line}
+.btn-lg,.btn-group-lg > .btn{padding:12px 7px}
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
